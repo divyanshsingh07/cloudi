@@ -30,8 +30,8 @@ const TeamModal = ({ isOpen, onClose }) => {
     {
       title: "Hardware & Assembly",
       members: [
-        { name: "Swastik Shukal" },
-        { name: "Harsh Kumar Singh" },
+        { name: "Swastik Shukla", id: "22BCE8035" },
+        { name: "Harsh Kumar Singh", id: "22BCE8045" },
       ],
       description: [
         "Worked on assembling the drone's hardware components.",
