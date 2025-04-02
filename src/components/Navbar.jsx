@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { Moon, Sun, Home, LayoutDashboard, Users, GraduationCap, Menu, Cloud, Eye } from "lucide-react";
+import { Moon, Sun, Home, LayoutDashboard, Users, GraduationCap, Menu, Cloud } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import TeamModal from "./TeamModal";
 import FacultyModal from "./FacultyModal";
@@ -45,9 +45,8 @@ const Navbar = ({ onNavigate }) => {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="flex items-center space-x-1">
-                <Cloud className="h-6 w-6 text-white" />
-                <Eye className="h-6 w-6 text-[rgb(96,165,250)]" />
+              <div className="flex items-center">
+                <Cloud className="h-6 w-6 text-[rgb(96,165,250)]" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-[rgb(96,165,250)] to-[rgb(96,165,250)]/60 bg-clip-text text-transparent">
                 CloudEye
